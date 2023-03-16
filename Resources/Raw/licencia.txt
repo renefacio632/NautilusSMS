@@ -1,0 +1,12 @@
+Certificado de Licencia
+
+Este Certificado identifica el software "NautilusSMS.apk ver. 1.x.x" como propiedad del usuario que ha adquirido el software para su dispositivo móvil.
+
+Constituye una garantía de uso y explotación del software "NautilusSMS.apk ver. 1.x.x" ante terceros. Este documento está asociado digitalmente al software por lo que éste no puede ser manipulado por terceros por no constituirse en propietarios del software.
+
+Sus mensajes serán cifrados (siempre y cuando haya activado la opción en "Preferencias") por lo que solo el destinatario con igual software en propiedad, pueda acceder al contenido.
+
+El propietario está obligado por el Contrato de Licencia final:
+	1. El software "NautilusSMS.apk ver. 1.x.x" es adquirido para un solo y único dispositivo móvil.
+	2. El usuario o cliente no podrá copiar el software "NautilusSMS.apk ver. 1.x.x" en otros dispositivos, ni hacer cesación a terceros del software.
+	3. El usuario o cliente no podrá modificar en ningún sentido el software.

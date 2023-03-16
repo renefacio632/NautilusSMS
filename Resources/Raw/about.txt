@@ -1,0 +1,50 @@
+Lic. René Facio M.
+Licenciado en Matemáticas - Universidad de La Habana 1982+
+Programador de Sistemas Informáticos 1980+
+Estadístico A - Escuela Estadística Juan F. Noyola, JUCEPLAN 1976+
+
+Móvil: +53 5-396-4092 
+Telef: +53 7-649-3216
+e-Mail: rene.facio@nauta.cu
+e-Mail: renefmeana@gmail.com
+
+Qué es Nautilus ?
+
+Nautilus es un "software propietario" desarrollado para teléfonos móviles con sistema Android ver 5.0+.(Lollipop)
+En el afán de preservar su privacidad este soft es un mensajero de SMS que brinda el servicio de enviar mensaje cifrados.
+
+Los mensajes cifrados son altamente seguros e improbables de descifrar, con Nautilus SMS usted no tiene que preocuparse por las siguientes razones:
+
+- Cada uno de los mensajes cifrados se realiza con una clave diferente.
+
+- La longitud de la clave es 20-600 veces mayor que la clave más segura utilizada por los actuales sistemas de cifrado.
+
+- La clave es completamente aleatoria y está protegida por múltiple cifrado.
+
+- Usted no participa en la formación de la clave, ni se aplican algoritmos conocidos de cifrado. El algoritmo es propio del autor basado en teoremas descubiertos por el mismo en 1982.
+
+- La clave no forma parte del mensaje.
+
+- Nautilus SMS no agranda su mensaje, sólo lo hace seguro.
+
+- Usted no depende de ningun proveedor para cifrar/descifrar sus mensajes.
+
+Nautilus SMS es "Software Propietario" esto quiere decir que es para el uso de quien lo adquiera y es intrasferible, además que esta cifrado por lo que cualquier actividad hackers es irrelevante, lo que lo hace doblemente seguro.
+
+Nautilus SMS utiliza los datos de contactos y mensajes nativos de su celular. Los mensajes solo podrán cifrarse-descifrarse con Nautilus SMS. Esto quiere decir que cualquier actividad hacker en su móvil para obtener la información es irrelevante. Tampoco debe preocuparse por los keylogers porque usted no teclea nunca la clave.
+
+Nautilus SMS no depende de ningun proveedor de certificados, la clave es única en su móvil y puede cambiarla cuando lo desee, usted no depende de nadie para cifrar-descifrar sus mensajes. Ud adquiere todos los derechos de explotación de por vida sin dependencias.
+
+Advertencia
+
+1. El software "NautilusSMS.apk" está encriptado.
+
+2. El password es 20 - 600 veces más grande que los passwords utilizados en la actualidad.
+
+3. El password es "ALEATORIO (por azar como encuentro accidental)" no pseudoaleatorio, no se genera por ningún algoritmo.
+
+4. Los mensajes encriptados no contienen el password ni ninguna indicación del password.
+
+5. El algoritmo de NautilusSMS.apk es único y está basado en Teoremas descubiertos por el autor.
+
+6. NautilusSMS.apk protege la clave y los mensajes son indescifrables (Principio de Kerckhoffs y secreto de Shannon).

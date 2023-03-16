@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NautilusSMS.MainPage"
+             Title="Mensajeria"
+             IconImageSource="ic_preferencias.png">
+    
+    <VerticalStackLayout
+        Spacing="25"
+        Padding="30,0"
+        VerticalOptions="Center">
+
+        <Image
+            Source="conversation2.png"
+            SemanticProperties.Description="Conversacion de menasajes"
+            HeightRequest="200"
+            HorizontalOptions="Center" />
+
+        <Label
+            Text="Bienvenido a Nautilus SMS cipher!"
+            LineBreakMode="WordWrap"
+            MaxLines="2"
+            SemanticProperties.HeadingLevel="Level1"
+            SemanticProperties.Description="Saludo de bienvenida"
+            FontSize="28"
+            HorizontalTextAlignment="Center" />
+            
+        <Label
+            Text="Una vez que inicia una conversación, ud. verá ésta listada aqui."
+            FontSize="14"
+            HorizontalTextAlignment="Center"
+            LineBreakMode="WordWrap"
+            MaxLines="2"
+            SemanticProperties.HeadingLevel="Level2"
+            SemanticProperties.Description="help de conversacion"/>
+    </VerticalStackLayout>    
+</ContentPage>

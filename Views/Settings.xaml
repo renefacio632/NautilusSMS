@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NautilusSMS.Views.Settings"
+             xmlns:local="clr-namespace:NautilusSMS.Settings"
+             Title="Preferencias">
+    
+    <VerticalStackLayout>
+        
+        <Frame BorderColor="LightGray"
+            HasShadow="True"
+            HeightRequest="800"
+            WidthRequest="400">
+            <Frame.Background>
+                <LinearGradientBrush StartPoint="0,0"
+                                 EndPoint="0,1">
+                    <GradientStop Color="#001900" Offset="0.1"/>
+                    <GradientStop Color="#006800" Offset="0.6"/>
+                    <GradientStop Color="#00e800" Offset="1.6"/>
+                </LinearGradientBrush>
+            </Frame.Background>
+
+            <StackLayout
+                Spacing="20"
+                Padding="30,0"
+                VerticalOptions="StartAndExpand">
+                
+                <Grid BackgroundColor="DarkRed"
+                  HeightRequest="{OnPlatform iOS=52, Default=32}"
+                  Padding="{OnPlatform iOS='0,5,0,25', Default='0,5,0,5'}">
+
+                    <Label Grid.Column="0"
+                        HorizontalTextAlignment="Center"
+                        FontSize="Small" FontAttributes="Bold" TextColor="White"
+                        Text="Click su preferencia"/>
+                </Grid>
+
+                <Button
+                    x:Name="PreferenciasBtn" BackgroundColor="LightBlue"
+                    Text="Preferencias"
+                    TextColor="Black"
+                    FontAttributes="Bold"
+                    SemanticProperties.Hint="Preferencias de la aplicacion"
+                    Clicked="OnPreferencias"
+                    HorizontalOptions="StartAndExpand" />
+
+                <Button
+                    x:Name="TelfBtn" BackgroundColor="LightBlue"
+                    Text="Datos del Telefono"
+                    TextColor="Black"
+                    FontAttributes="Bold"
+                    SemanticProperties.Hint="Datos del Telefono"
+                    Clicked="OnTelefono"
+                    HorizontalOptions="StartAndExpand" />
+                <Button
+                    x:Name="BorraEmergenteBtn" BackgroundColor="LightBlue"
+                    Text="Borrado Emergente"
+                    TextColor="Black"
+                    FontAttributes="Bold"
+                    SemanticProperties.Hint="Borrado de los password"
+                    Clicked="OnEmergente"
+                    HorizontalOptions="StartAndExpand" />
+                <Button
+                    x:Name="PrivadosBtn" BackgroundColor="LightBlue"
+                    Text="Privados"
+                    TextColor="Black"
+                    FontAttributes="Bold"
+                    SemanticProperties.Hint="Ve los mensajes privados"
+                    Clicked="OnPrivados"
+                    HorizontalOptions="StartAndExpand" />
+            </StackLayout>
+        </Frame>
+    </VerticalStackLayout>
+</ContentPage>

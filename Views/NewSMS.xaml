@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NautilusSMS.Views.NewSMS"
+             xmlns:models="clr-namespace:NautilusSMS.Models"
+             Title="Nuevo SMS"
+             Loaded="NuevoSMS_Load">
+    
+    <ScrollView>
+        <VerticalStackLayout>
+            <SearchBar Placeholder = "Buscar contacto..."
+                       Background="{AppThemeBinding Light=White, Dark=Black}"
+                       Text="{Binding TextSearch}"
+                       IsTextPredictionEnabled="True"/>
+            <ListView
+            HasUnevenRows="true"
+            x:Name="listContactos" 
+            VerticalScrollBarVisibility="Never"
+            BackgroundColor="Transparent"
+            Margin="10"
+            ItemSelected="listContactos_ItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="70"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                <Image Grid.Column="0" Grid.Row="0" Source="{Binding Imagen}" Margin="15,0"/>
+                                <StackLayout Grid.Column="1" Grid.Row="0" Padding="5,10">
+                                    <Label Text="{Binding Name}"/>
+                                    <Label Text="{Binding Phone}"/>
+                                </StackLayout>
+                                <!--<StackLayout Grid.Column="2" Grid.Row="0" Padding="5,10">
+                                <Label Text="{Binding Email}"/>
+                            </StackLayout>-->
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            
+        </VerticalStackLayout>
+        
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NautilusSMS.Settings.PreferenciasPage"
+             Title="Preferencias">
+    <VerticalStackLayout
+        Spacing="10"
+        Margin="20"
+        Padding="0,20"
+        VerticalOptions="StartAndExpand">
+
+        <StackLayout>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Image Grid.Column="0" Grid.Row="0"
+                    Source="ic_notifications.png"
+                    SemanticProperties.Description="Conversacion de menasajes"
+                    HorizontalOptions="Center" />
+                <Button x:Name="SettNotif" Grid.Column="1" Grid.Row="0" BackgroundColor="Transparent"
+                    Padding="10,15"
+                    Text="Notificaciones"
+                    TextColor="Black"
+                    HorizontalOptions="Start"
+                    VerticalOptions="Center"
+                    Clicked="settingNotificacion"/>
+            </Grid>
+        </StackLayout>
+        <StackLayout>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Image  Grid.Column="0" Grid.Row="0"
+                    Source="ic_protection.png"
+                    SemanticProperties.Description="Conversacion de menasajes"
+                    HorizontalOptions="Center" />
+                <Button x:Name="SettProtec" Grid.Column="1" Grid.Row="0" BackgroundColor="Transparent"
+                    Text="Proteccion"
+                    TextColor="Black"
+                    Padding="10,15"
+                    HorizontalOptions="Start" 
+                    VerticalOptions="Center"
+                    Clicked="settingProteccion"/>
+            </Grid>
+        </StackLayout>
+    </VerticalStackLayout>
+</ContentPage>

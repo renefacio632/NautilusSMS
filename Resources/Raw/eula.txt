@@ -1,0 +1,54 @@
+Contrato de Licencia final de la aplicación.
+
+Software "NautilusSMS.apk" versión de este software es la 1.x.x (1 indica la versión mayor y x.x las modificaciones menores).
+
+Genesys Nautilus es el proveedor único del software "NautilusSMS.apk ver 1.x.x" para dispositivos móviles. Y la propiedad del mismo es del autor, quien no cede los derechos al proveedor en ningún caso, salvo a los efectos de la comercialización, bajo contrato de manera inequívoca.
+
+El software "NautilusSMS.apk ver. 1.x.x" está orientado a cifrar los mensajes de texto de su dispositivo móvil. La intención del autor es motivarlo a garantizar su “privacidad” en todo momento.
+
+El usuario o cliente final que adquiera el software "NautilusSMS.apk ver 1.x.x" deberá reconocer estos derechos amparados por la Ley y que ha quedado registrado y protegido por el registro:??????????????????????????
+
+El usuario o cliente final del software "NautilusSMS.apk ver. 1.x.x" cuenta con las garantías de derecho por el uso o explotación del software, debiendo cumplir con los siguientes requisitos de uso:
+	1. El software "NautilusSMS.apk ver. 1.x.x" es adquirido para un solo y único dispositivo móvil.
+	2. El usuario o cliente no podrá copiar el software "NautilusSMS.apk ver. 1.x.x" en otros dispositivos, ni hacer cesación a terceros del software.
+	3. El usuario o cliente no podrá modificar en ningún sentido el software.
+
+Esta Licencia no tiene plazo definido y el autor garantiza de manera gratuita las actualizaciones de modificaciones menores (x.x) que se realicen a esta versión.
+
+Las nuevas versiones mayores deberán ser adquiridas y pagadas.
+
+La Licencia del software "NautilusSMS.apk ver. 1.x.x" para dispositivos móviles es de "código cerrado privado" el cual se reconoce como un "software propietario" lo cual establece el derecho de los propietarios a establecer los derechos de uso, distribución, redistribución, copia, modificación, cesión y en general cualquier otra consideración que se estime necesaria.
+
+Este tipo de licencias, por lo general, no permiten que el software sea modificado, desensamblado, copiado o distribuido de formas no especificadas en la propia licencia (piratería de software), regula el número de copias que pueden ser instaladas e incluso los fines concretos para los cuales puede ser utilizado.
+
+Genesys Nautilus ofrece servicios de soporte técnico durante el tiempo de vida del producto en su página www.genesys.NautilusSMS.xxx y su eMail genesys.Nautilus@gmail.com.
+
+Esta Licencia es del tipo: EULA: End User License Agreement, por sus siglas en Inglés.
+
+___________________________________
+End User License Agreement of the application (english)
+
+Software "NautilusSMS.apk" version of this software is the 1.x.x (1 indicate the biggest version and x.x the smallest modifications).
+
+Genesys Nautilus is the unique supplier of the software "NautilusSMS.apk ver. 1.x.x" for mobile devices. And the property of the same one belongs to the author who doesn't give the rights to the supplier in any case, I save to the effects of the commercialization, under contract in an unequivocal way.
+
+The software "NautilusSMS.apk ver. 1.x.x" are guided to calculate the messages of text of their mobile device. The author's intention is to motivate it to guarantee its "privacy" in all moment.
+
+The user or final client that he/she acquires the software "NautilusSMS.apk ver. 1.x.x" will recognize these rights aided by the Law and that it has been registered and protected by the registration:??????????????????????????
+
+The user or final client of the software "NautilusSMS.apk ver. 1.x.x" bill with the right guarantees for the use or exploitation of the software, should fulfill the following use requirements:
+	1. The software "NautilusSMS.apk ver. 1.x.x" are acquired for a mobile single and only device.
+	2. The user or client won't be able to copy the software "NautilusSMS.apk ver. 1.x.x" in other devices, neither to make ceasing at third of the software.
+	3. The user or client won't be able to modify in any sense the software.
+
+This License doesn't have defined term and the author guarantees in a gratuitous way the smallest upgrades of modifications that (x.x) are carried out to this version.
+
+The new biggest versions will be acquired and paid.
+
+The License of the software "NautilusSMS.apk ver. 1.x.x" for mobile devices are of closed "private code" which is recognized as a "software proprietor" that which establishes the right of the proprietors to establish the use rights, distribution, redistribution, it copies, modification, surrender and in general any other consideration that is considered necessary.
+
+This type of licenses, in general, they don't allow that the software is modified, disassembler, copied or distributed in ways not specified in the own license (software piracy), it regulates the number of copies that you/they can be installed and even the concrete ends for which it can be used.
+
+Genesys Nautilus offers services of support technician during the time of life of the product in its page www.genesys.NautilusSMS.xxx and its email genesys.Nautilus@gmail.com.
+
+This License is of the type: EULA: End User License Agreement, for their initials in English.

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="NautilusSMS.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:NautilusSMS"
+    xmlns:localPage="clr-namespace:NautilusSMS.Views"
+    FlyoutBackgroundImage="background.png"
+    FlyoutBackgroundImageAspect="AspectFill"
+    Shell.FlyoutBehavior="Flyout">
+
+    <!--Apariencia de Opciones-->
+    <Shell.ItemTemplate>
+        <DataTemplate x:Name="Mensajeria">
+            <Grid ColumnDefinitions="25,*" Padding="10">
+                <Image Source = "{Binding FlyoutIcon}" />
+                <Label Grid.Column = "1"
+                       Text = "{Binding Title}"
+                       FontFamily="Bahnschrift-SemiBold"
+                       FontSize="18"
+                       FontAttributes="Italic"
+                       VerticalTextAlignment = "Center"/>
+                <VisualStateManager.VisualStateGroups>
+                    <VisualStateGroupList>
+                        <VisualStateGroup x:Name="CommonStates">
+                            <VisualState x:Name="Normal">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor" Value="Transparent" />
+                                </VisualState.Setters>
+                            </VisualState>
+                            <VisualState x:Name="Selected">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor" Value="{AppThemeBinding Light=Red, Dark=White}"/>
+                                </VisualState.Setters>
+                            </VisualState>
+                        </VisualStateGroup>
+                    </VisualStateGroupList>
+                </VisualStateManager.VisualStateGroups>
+                
+            </Grid>
+        </DataTemplate>
+    </Shell.ItemTemplate>
+
+    <Shell.FlyoutHeader>
+        <Grid HeightRequest="100" WidthRequest="400" BackgroundColor="#512BD4">
+            <Image Source="nautilus.png"/>
+        </Grid>
+    </Shell.FlyoutHeader>
+
+    <!--Desarrollando un TAB de 3 elemenyos en una Pila-->
+    <FlyoutItem Title="   Mensajería" Icon="ic_home.png">
+        <ShellContent Title="Mensajería" Icon="ic_Message.png" SemanticProperties.Hint="Ver mensajes recientes"
+            ContentTemplate="{DataTemplate local:MainPage}" Route="MainPage" />
+        <ShellContent Title="Preferencias" Icon="ic_preferencias.png" SemanticProperties.Hint="Settings"
+            ContentTemplate="{DataTemplate localPage:Settings}" Route="Settings"/>
+        <ShellContent Title="Nuevo SMS" Icon="ic_profile.png" SemanticProperties.Hint="Nuevo sms"
+            ContentTemplate="{DataTemplate localPage:NewSMS}" Route="NewSMS"/>
+    </FlyoutItem>
+
+    
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems" Route="ParentRoute">
+        <ShellContent Title="  Importar mensajes" Icon="ic_gallery.png"
+            ContentTemplate="{DataTemplate localPage:Importar}" Route="Importar"/>
+        <ShellContent Title="  Otras Informaciones" Icon="ic_assist.png"
+            ContentTemplate="{DataTemplate localPage:OtrasInf}" Route="OtrasInf"/>
+        <ShellContent Title="  Acerca..." Icon="about.png"
+            ContentTemplate="{DataTemplate localPage:Acerca}" Route="Acerca"/>
+        <!--Menu con Flyout-->
+
+        <ShellContent Title="  Licencia" Icon="ic_passport.png"
+            ContentTemplate="{DataTemplate localPage:Licencia}" Route="Licencia"/>
+        <ShellContent Title="  Eula" Icon="ic_nautilus.png"
+            ContentTemplate="{DataTemplate localPage:Eula}" Route="Eula"/>
+        <ShellContent Title="  Privacidad" Icon="ic_lock.png"
+            ContentTemplate="{DataTemplate localPage:Privacidad}" Route="Privacidad"/>
+        <ShellContent Title="  Ayuda" Icon="ic_help.png"
+            ContentTemplate="{DataTemplate localPage:Ayuda}" Route="Ayuda"/>
+    </FlyoutItem>
+
+    <Shell.FlyoutFooter>
+        <Grid BackgroundColor="DarkSlateBlue"
+              HeightRequest="{OnPlatform iOS=52, Default=32}"
+              Padding="{OnPlatform iOS='0,5,0,25', Default='0,5,0,5'}">
+            <Label Grid.Column="0"
+                   HorizontalTextAlignment="Center"
+                   FontSize="Small" FontAttributes="Bold" TextColor="White"
+                   Text="CopyRigth © 2023 Nautilus"/>
+        </Grid>
+    </Shell.FlyoutFooter>
+
+    <Shell.FlyoutBackdrop>
+        <LinearGradientBrush StartPoint="0,0"
+                             EndPoint="0,1">
+            <GradientStop Color="#001900" Offset="0.1"/>
+            <GradientStop Color="#006800" Offset="0.6"/>
+            <GradientStop Color="#00e800" Offset="1.6"/>
+        </LinearGradientBrush>
+    </Shell.FlyoutBackdrop>
+
+</Shell>
