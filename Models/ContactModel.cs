@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MvvmHelpers;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace NautilusSMS.Models
 {
-    public class ContactGroup : List<ContactModel>
+    public class ContactGroup : ObservableRangeCollection<ContactModel>
     {
         public string GroupTitle { get; set; }
         public ContactGroup(string groupTitle, List<ContactModel>

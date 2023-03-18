@@ -10,7 +10,7 @@
         <models:Acerca />
     </ContentPage.BindingContext>
     <ScrollView>
-        <VerticalStackLayout Spacing="10" Margin="10">
+        <VerticalStackLayout Margin="10" Padding="10">
             <HorizontalStackLayout Spacing="10">
                 <Image Source="rene.png"
                        SemanticProperties.Description="NautilusSMS Acerca del autor!"

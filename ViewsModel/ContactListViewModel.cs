@@ -10,11 +10,14 @@ namespace NautilusSMS.ViewsModel
 {
     public class ContactListViewModel
     {
-        public List<ContactGroup> Contacts { get; set; } = new List<ContactGroup>();
+        private List<ContactModel> _contacts = new List<ContactModel>(); 
+        public List<ContactGroup> contactsGroup { get; set; } = new List<ContactGroup>();
         public ContactListViewModel()
         {
-            
+            _contacts.AddRange(new List<ContactModel>());
 
+            var groupedData = _contacts.GroupBy(f => f.Name[0]).Select(f => new ContactGroup(f.ToString(), f.ToList()));
+            contactsGroup.AddRange(groupedData);
         }
         public bool IsNumeric(string value)
         {

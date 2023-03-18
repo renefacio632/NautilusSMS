@@ -8,6 +8,7 @@ using System.Text.RegularExpressions;
 using CommunityToolkit.Maui.Markup;
 using System.Linq;
 using CommunityToolkit.Maui.Converters;
+using DocumentFormat.OpenXml.Office2016.Drawing.ChartDrawing;
 
 namespace NautilusSMS.Views;
 
@@ -16,17 +17,18 @@ public partial class NewSMS: ContentPage
 	public NewSMS()
 	{
 		InitializeComponent();
-
+        
         SearchBar searchBar = new SearchBar {Placeholder ="Search items..."};
     }
 
     private async void NuevoSMS_Load(object sender, EventArgs e)
     {
+        
         var contacts = await Microsoft.Maui.ApplicationModel.Communication.Contacts.GetAllAsync();
 
         // Crea una lista de contactos para mostrar en la página
         var contactList = new List<Contact>();
-
+        
         // Recorre la lista de contactos y agrega la información a la lista
         foreach (var contact in contacts)
         {
